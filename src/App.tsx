@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import MetaDecoration from './MetaDecoration';
-import thumbnailImage from './assets/thumbnail.jpg';
+import thumbnailImage from './assets/thumbnail1.png';
 
 function App() {
   return (
