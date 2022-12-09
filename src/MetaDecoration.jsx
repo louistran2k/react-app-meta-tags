@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
 
 const hostName = 'https://louistran2k.github.io/react-app-meta-tags'
-const hostName1 = 'https://louistran2k.github.io/'
+const hostName1 = 'https://louistran2k.github.io'
 
 const MetaDecoration = ({ title, description, imageUrl, imageAlt }) => {
   return (
