@@ -7,16 +7,16 @@ import thumbnailImage from './assets/thumbnail1.png';
 function App() {
   return (
     <div className="App">
-      {/* <MetaDecoration 
+      <MetaDecoration 
         title="testing meta tag react app"
         description="testing meta tag react app"
         imageUrl={thumbnailImage}
         imageAlt="thumbnail"
-      /> */}
+      />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Edit <code>src/App.tsx</code> and save to reload.1
         </p>
         <a
           className="App-link"
