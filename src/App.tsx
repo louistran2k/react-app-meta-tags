@@ -1,10 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import MetaDecoration from './MetaDecoration';
+import thumbnailImage from './assets/thumbnail.jpg';
 
 function App() {
   return (
     <div className="App">
+      <MetaDecoration 
+        title="testing meta tag react app"
+        description="testing meta tag react app"
+        imageUrl={thumbnailImage}
+        imageAlt="thumbnail"
+      />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
