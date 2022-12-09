@@ -10,7 +10,6 @@ const MetaDecoration = ({ title, description, imageUrl, imageAlt }) => {
     <Helmet>
       <title>{title}</title>
       <meta property="og:title" content={title} />
-      <meta property="og:type" content="article" />
       <meta property="og:image" content={hostName1 + imageUrl} />
       <meta property="og:url" content={hostName1 + window.location.pathname + window.location.search} />
       <meta property="og:description" content={description} />
