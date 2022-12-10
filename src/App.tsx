@@ -19,7 +19,7 @@ function App() {
   return (
     <HelmetProvider>
       <div className="App">
-        <Helmet>
+        {/* <Helmet>
           <title>
             testing meta tags react
           </title>
@@ -45,7 +45,7 @@ function App() {
           />
 
           <meta property="og:type" content="website" />
-          <meta property="og:url" content={hostName1} />
+          <meta property="og:url" content="https://louistran2k.github.io/react-app-meta-tags/" />
           <meta
             property="og:title"
             content="Design+Code - Learn to design and code React and Swift apps"
@@ -58,7 +58,7 @@ function App() {
             property="og:image"
             content="https://louistran2k.github.io/react-app-meta-tags/static/media/thumbnail.4db11d686e435b3f9d98.jpg"
           />
-        </Helmet>
+        </Helmet> */}
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
