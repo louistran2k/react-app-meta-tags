@@ -19,7 +19,7 @@ function App() {
   return (
     <HelmetProvider>
       <div className="App">
-        {/* <Helmet>
+        <Helmet>
           <title>
             testing meta tags react
           </title>
@@ -31,7 +31,7 @@ function App() {
           <meta name="twitter:card" content="summary" />
           <meta
             name="twitter:image"
-            content="https://louistran2k.github.io/react-app-meta-tags/static/media/thumbnail.4db11d686e435b3f9d98.jpg"
+            content="https://www.nicesnippets.com/upload/blog/1586948566_Get-thumbnail-image-preview-before-uploading-in-React.png"
           />
           <meta
             name="twitter:title"
@@ -56,9 +56,9 @@ function App() {
           />
           <meta
             property="og:image"
-            content="https://louistran2k.github.io/react-app-meta-tags/static/media/thumbnail.4db11d686e435b3f9d98.jpg"
+            content="https://www.nicesnippets.com/upload/blog/1586948566_Get-thumbnail-image-preview-before-uploading-in-React.png"
           />
-        </Helmet> */}
+        </Helmet>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
