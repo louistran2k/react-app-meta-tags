@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import MetaDecoration from './MetaDecoration';
@@ -7,7 +7,15 @@ import { HelmetProvider, Helmet } from 'react-helmet-async';
 import image from './assets/thumbnail.jpg';
 const hostName1 = 'https://louistran2k.github.io'
 
+
 function App() {
+
+  // useEffect(() => {
+  //   document.querySelector('title').innerText = 'Your page title'; // Cập nhật thẻ title
+  //   document.querySelector('meta[name="description"]').innerText = 'Your page description'; // Cập nhật thẻ meta description
+  //   document.querySelector('meta[name="keywords"]').innerText = 'React Helmet, SEO, SPA'; // Cập nhật thẻ meta keywords
+  // }, [])
+
   return (
     <HelmetProvider>
       <div className="App">
@@ -20,11 +28,10 @@ function App() {
             content="testing meta tags react"
           />
 
-          {/* Twitter meta tags below */}
           <meta name="twitter:card" content="summary" />
           <meta
             name="twitter:image"
-            content={hostName1 + image}
+            content="https://louistran2k.github.io/react-app-meta-tags/static/media/thumbnail.4db11d686e435b3f9d98.jpg"
           />
           <meta
             name="twitter:title"
@@ -37,7 +44,6 @@ function App() {
             content="Design+Code - testing meta tags react description"
           />
 
-          {/* Facebook meta tags below */}
           <meta property="og:type" content="website" />
           <meta property="og:url" content={hostName1} />
           <meta
@@ -50,7 +56,7 @@ function App() {
           />
           <meta
             property="og:image"
-            content={hostName1 + image}
+            content="https://louistran2k.github.io/react-app-meta-tags/static/media/thumbnail.4db11d686e435b3f9d98.jpg"
           />
         </Helmet>
         <header className="App-header">
